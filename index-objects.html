@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css"></link>
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+  <script src="assets/js/index-objects.js"></script>
+</head>
+<body>
+	<div id="background-img">
+		<section class="container-fluid">
+			<div class="row">
+				<h1 class="col-xs-12 jumbotron">Number to Guess: <small id="num-to-guess">?</small></h1>	
+			</div>
+			<div class="row">
+				<img class="col-xs-3" id="abc" src="assets/images/crystal1.png"/>
+				<img class="col-xs-3" id="def" src="assets/images/crystal2.png"/>
+				<img class="col-xs-3" id="ghi" src="assets/images/crystal3.png"/>
+				<img class="col-xs-3" id="jkl" src="assets/images/crystal4.png"/>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading text-center panel-top">Current Score</div>
+				<div class="panel-body text-center">You have <span class="score">0</span> points!</div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading text-center panel-top">Points per Rock (PPR)</div>
+				<div class="row">
+					<div class="col-xs-3 panel-body text-center">Rock 1: <span id="abc">0</div>
+					<div class="col-xs-3 panel-body text-center">Rock 2: <span id="def">0</div>
+					<div class="col-xs-3 panel-body text-center">Rock 3: <span id="ghi">0</div>
+					<div class="col-xs-3 panel-body text-center">Rock 4: <span id="jkl">0</div>
+				</div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading text-center panel-top">Scoreboard</div>
+				<div class="row">
+					<div class="col-xs-6 panel-body text-center">Wins: <span id="wins-counter">0</div>
+					<div class="col-xs-6 panel-body text-center">Losses: <span id="losses-counter">0</div>
+					
+				</div>
+			</div>
+				
+		</section>
+	</div>
+</body>
+</html>
